@@ -1,4 +1,6 @@
-# webdriverio bug 
+# webdriverio bug 6092
+
+https://github.com/webdriverio/webdriverio/issues/6092
 
 ## Usage
 
@@ -7,5 +9,5 @@ npm install
 npm test
 ```
 
-You should observe that the Spectron 10 tests pass, while the final
-Spectron 12 test hangs.
+You should observe that the Spectron 10 test passes, while the final
+Spectron 12 test fail.

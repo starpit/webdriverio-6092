@@ -1,0 +1,11 @@
+{
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "mocha": "^8.2.0",
+    "spectron": "^12.0.0"
+  },
+  "scripts": {
+    "test": "mocha ./spec.js"
+  }
+}

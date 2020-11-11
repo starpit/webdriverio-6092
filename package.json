@@ -1,0 +1,13 @@
+{
+  "name": "wdio-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "(cd spectron12 && npm ci); (cd spectron10 && npm ci)",
+    "test": "(cd spectron10 && npm test) && (cd spectron12 && npm test)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
